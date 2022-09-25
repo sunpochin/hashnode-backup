@@ -3,17 +3,38 @@
 
 
 1. quote: 
+
 "In your public folder (folder which contains index.html) create a file called _redirects with no extension. Then, type the following inside it:
 
 /*    /index.html    200
 "
-
 https://stackoverflow.com/a/63738122/720276
 https://medium.com/@ishoshot/page-not-found-on-reload-vuejs-netlify-c71716e97e6
+```
+// jsconfig.json
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "esnext",
+    "baseUrl": "/",
+    "moduleResolution": "node",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable",
+      "scripthost"
+    ]
+  }
+}
 
+```
 
-=== 
-2. product-covers
+1. product-covers
 https://stackoverflow.com/questions/11552380/how-to-automatically-crop-and-center-an-image
 
 branch:
