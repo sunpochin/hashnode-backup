@@ -24,3 +24,5 @@ https://stackoverflow.com/questions/42603583/vue-js-same-component-with-differen
 
 https://dev.to/erefor/vue-tip-same-component-different-route-4fme
 
+snapshot by branch: https://github.com/sunpochin/vue2-ecommerce/tree/gender_filter
+
