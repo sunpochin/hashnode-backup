@@ -36,6 +36,7 @@ https://medium.com/@ishoshot/page-not-found-on-reload-vuejs-netlify-c71716e97e6
 
 1. product-covers
 https://stackoverflow.com/questions/11552380/how-to-automatically-crop-and-center-an-image
+https://stackoverflow.com/questions/11552380/how-to-automatically-crop-and-center-an-image
 
 branch:
 https://github.com/sunpochin/vue2-ecommerce/tree/product-covers
