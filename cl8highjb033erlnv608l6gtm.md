@@ -9,6 +9,8 @@
 "
 
 https://stackoverflow.com/a/63738122/720276
+https://medium.com/@ishoshot/page-not-found-on-reload-vuejs-netlify-c71716e97e6
+
 
 === 
 2. product-covers
