@@ -26,6 +26,20 @@ ref. 感謝前輩們分享：
  - https://codesandbox.io/s/closure-qg5z25?file=/src/index.js
 
 5. Callback 回呼是什麼、Callback Hell是什麼以及為何會產生?
+ - example: 
+ - <iframe src="https://codesandbox.io/embed/exciting-platform-hjlsqq?fontsize=14&hidenavigation=1&theme=dark&view=editor"
+     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="callbackhell-promise"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
+ - 延伸考題 What’s about async?
+  - The async function is syntactic sugar for promise.
+async/await 其實是 promise 語法糖，讓你可以用更簡潔的方法達到非同步。(async function 本身就會回傳 promise)
+ -  [%https://gist.github.com/hannahpun/a095532d0454b56096896f1a6c7a1ba3]
+  - [%https://gist.github.com/hannahpun/a095532d0454b56096896f1a6c7a1ba3#file-hook-js]
+
+
 6. JS 事件傳遞機制:捕獲跟冒泡
 7. this 指向、如何強制綁定this (call/apply/bind差異)
 8. Event Loop
