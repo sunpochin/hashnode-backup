@@ -1,7 +1,5 @@
 ## front-end web interview basic questions
 
-
-
 ref. 感謝前輩們分享：
 - https://ithelp.ithome.com.tw/articles/10256018
 - https://ithelp.ithome.com.tw/articles/10256017
@@ -9,21 +7,29 @@ ref. 感謝前輩們分享：
 
 ## 〔JS基礎觀念〕
 1. 變數有效範圍與var/let/const差異
- - JavaScript在ES6中新增了“let”宣告方式來取代”var”。在ES6之前，JavaScript的世界中並沒有區塊域(block)的概念，因此經常使用”var”宣告所有的變數，
+ - JavaScript 在 ES6 中新增了“let”宣告方式來取代”var”。在ES6之前， JavaScript 的世界中並沒有區塊域(block)的概念，因此經常使用”var”宣告所有的變數，
  - var、let 一個是函數變數，另一個是區塊變數
  - 無宣告: global. var: function. let, const: block.
  - 
+
 2. Scope 作用域
  - Where and how to look for things. JS have two lexical scopes global and function
  - 變數在程式中可以被存取的範圍，可分為區域變數，全域變數。
 3. 函式與函式的作用域
 3. Hoisting提升是什麼?
  - JavaScript’s default behavior of moving declarations to the top.
+ - https://shubo.io/javascript-hoisting/ quote:"關於 var 可以「重複宣告」以及「先使用後宣告」，你可能會很好奇，這樣為什麼會對？畢竟這違反我們對一般程式語言的認知。其實這是因為：在 JavaScript 中，不管你在函數中的哪一行用 var 宣告變數，一律視為在函數的第一行宣告。也就是說，不論你宣告 var 變數的位置在哪，宣告的動作一律都會被「抬升」到函式的最頂端，這個特性就叫做 hoisting (提升)。要注意的是，只有「宣告」這個動作有 hoisting (提升) 的特性，賦值 (把值指定給變數) 的動作不會 hoisting。"
+      - function hoisting: "這個特性可以解決一個問題，也就是兩個函數需要互相呼叫彼此的狀態，也就是 A() 裡面會呼叫到 B()，而 B() 裡面會呼叫的 A() 的遞迴狀況。"
 
 4. Closure閉包是什麼?
  - 是函式以及該函式被宣告時所在的作用域環境（lexical environment）的組合。
  - https://openhome.cc/zh-tw/javascript/function/closure/
- - https://codesandbox.io/s/closure-qg5z25?file=/src/index.js
+ - <iframe src="https://codesandbox.io/embed/closure-qg5z25?fontsize=14&hidenavigation=1&theme=dark&view=editor"
+     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="closure"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
 
 5. Callback 回呼是什麼、Callback Hell是什麼以及為何會產生?
  - example: 
