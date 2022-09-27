@@ -16,8 +16,6 @@ ref. 感謝前輩們分享：
 2. Scope 作用域
  - Where and how to look for things. JS have two lexical scopes global and function
  - 變數在程式中可以被存取的範圍，可分為區域變數，全域變數。
-
-
 3. 函式與函式的作用域
 3. Hoisting提升是什麼?
  - JavaScript’s default behavior of moving declarations to the top.
@@ -25,6 +23,7 @@ ref. 感謝前輩們分享：
 4. Closure閉包是什麼?
  - 是函式以及該函式被宣告時所在的作用域環境（lexical environment）的組合。
  - https://openhome.cc/zh-tw/javascript/function/closure/
+ - https://codesandbox.io/s/closure-qg5z25?file=/src/index.js
 
 5. Callback 回呼是什麼、Callback Hell是什麼以及為何會產生?
 6. JS 事件傳遞機制:捕獲跟冒泡
@@ -45,7 +44,7 @@ ref. 感謝前輩們分享：
 - https://www.g2i.co/blog/2021-front-end-developer-interview-questions-and-answers
 1. What is the difference between == and ===?
     - Doubles equals checks for value only. Before checking, it does any necessary type coercion. For example, the string "1" will be == to the integer 1, but it will not be ===. Many projects these days prefer to always use ===. Although, some folks advocate writing code that works well with the == type coercion.
-    - ss
+    - 
 
 1. What is the `this` keyword in JavaScript?
     - this is a little tricky in JavaScript. Its value is determined by what the function you are inside of is called. In the global state, this is set to the window object. The value of this also depends on whether or not you are in strict mode. Inside a top-level function, a strict mode this will be undefined, whereas a non-strict mode this will be the window object. It's also worth knowing that the value of this can be overwritten with the bind method.
