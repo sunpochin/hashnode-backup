@@ -48,6 +48,9 @@ async/await 其實是 promise 語法糖，讓你可以用更簡潔的方法達�
 
 6. JS 事件傳遞機制:捕獲跟冒泡
 7. this 指向、如何強制綁定this (call/apply/bind差異)
+  - arrow function: 
+    - https://askie.today/this-arrow-function-in-javascript/
+    - https://kuro.tw/posts/2017/10/17/What-s-THIS-in-JavaScript-%E4%B8%AD/
 8. Event Loop
 9. 同步與非同步、promise是什麼?
 
