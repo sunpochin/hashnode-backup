@@ -90,3 +90,20 @@ async/await 其實是 promise 語法糖，讓你可以用更簡潔的方法達�
 1. What is functional programming in JavaScript?
     - Functional programming refers to using pure functions. In the context of JavaScript, this means familiarizing yourself with map, filter, and reduce. It's also worth understanding the concept of immutability.
 
+## questions from https://ithelp.ithome.com.tw/articles/10256018
+
+- "廢話不多說，先整理我自己必問的問題，再詳細說明為什麼要問這些問題："
+  - 專案的開發流程大致為何?
+  - 團隊成員有多少人、每個人的資歷?
+  - 團隊/公司目前使用的技術? (語言、框架、工具)
+  - 通常專案會有給多少開發時間?
+  - 團隊成員每人普遍會卡多少案子/任務?
+  - 團隊的分工大致為何? (是否有PM/設計/前端/後端/QA團隊)
+  - 加入團隊後的直屬主管是誰、他是前端/後端/全端?
+  - 新人是否有培訓期? 培訓時會分派什麼樣的任務?
+  - 專案完成後是否有Code review? 由誰進行?
+  - 加入後主要會負責的工作內容?
+  - 試用期間會碰到的主要任務或是最大困難為何?
+  - 試用期間希望能完成怎麼樣的案子或具備的能力?
+"
+
